@@ -9,6 +9,10 @@ Plays [motivational music](https://www.youtube.com/watch?v=rShjZ_op1V8) while **
 
 Stops instantly when the model responds. Only mpv is needed for full modulation; ffplay/vlc work as fallback players with cached audio.
 
+## Showcase
+
+https://github.com/user-attachments/assets/75bfd71e-ab70-4339-881e-fbb9d25b576a
+
 ## Install
 
 ```bash
