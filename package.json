@@ -1,0 +1,34 @@
+{
+  "name": "pi-chinese-motivation",
+  "version": "1.0.1",
+  "description": "Plays motivational music while Chinese-origin models (DeepSeek, MiMo, Kimi, etc.) are thinking — with dynamic volume ramp and bit-crusher distortion that gets worse the longer the model thinks.",
+  "keywords": [
+    "pi-package",
+    "motivation",
+    "music",
+    "deepseek",
+    "thinking"
+  ],
+  "license": "MIT",
+  "author": "kaueDM",
+  "files": [
+    "extensions/",
+    "image.jpg",
+    "package.json",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kaueDM/pi-chinese-motivation"
+  },
+  "pi": {
+    "extensions": [
+      "./extensions"
+    ],
+    "image": "./image.jpg"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  }
+}
